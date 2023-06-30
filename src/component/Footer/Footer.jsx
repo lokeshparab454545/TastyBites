@@ -1,4 +1,4 @@
-import { GiChefToque } from 'react-icons/Gi'
+
 import './Footer.css'
 
 
@@ -9,7 +9,6 @@ const Footer = () => {
         <div className="sec-footer first">
           <div className="logo-sec">
             <h1>Tasty Bites</h1>
-            <GiChefToque className='chef' />
           </div>
           <span>With over 3 lakh listed restaurants, explore the best food around Indias . Most loved & trusted food app- making hungry customers happy since 2008!</span>
         </div>
