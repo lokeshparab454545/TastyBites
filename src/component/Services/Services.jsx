@@ -1,17 +1,16 @@
 import React from 'react'
 import './Services.css'
-import { MdEmojiFoodBeverage } from 'react-icons/md'
-import {FaBicycle} from 'react-icons/Fa';
-import {GiHotMeal} from 'react-icons/Gi';
-import {GiMoneyStack} from 'react-icons/Gi';
-  
+import { FaBicycle } from 'react-icons/Fa';
+import { GiHotMeal } from 'react-icons/Gi';
+import { GiMoneyStack } from 'react-icons/Gi';
+
 
 const Services = () => {
     return (
         <div className='services container' id='service'>
             <div className="ser">
                 <div className="icon">
-                    <FaBicycle/>
+                    <i class="ri-motorbike-fill"></i>
                 </div>
                 <div className="ser-content">
                     <h3>15 Min</h3>
@@ -20,7 +19,7 @@ const Services = () => {
             </div>
             <div className="ser">
                 <div className="icon">
-                    <GiMoneyStack className='main-icon' />
+                    <i class="ri-cash-fill"></i>
                 </div>
                 <div className="ser-content">
                     <h3>Rs. 20</h3>
@@ -29,7 +28,7 @@ const Services = () => {
             </div>
             <div className="ser">
                 <div className="icon">
-                    <GiHotMeal />
+                    <i class="ri-cake-3-line"></i>
                 </div>
                 <div className="ser-content">
                     <h3>20 Min</h3>
