@@ -1,8 +1,5 @@
 import React from 'react'
 import './Services.css'
-import { FaBicycle } from 'react-icons/Fa';
-import { GiHotMeal } from 'react-icons/Gi';
-import { GiMoneyStack } from 'react-icons/Gi';
 
 
 const Services = () => {
