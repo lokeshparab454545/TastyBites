@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Slider.css";
-import {AiOutlineArrowLeft} from 'react-icons/Ai';
 const data = [
   {
     id: 1,
@@ -82,12 +81,7 @@ const Slider = () => {
             </article>
           );
         })}
-        <button className="prev" onClick={() => setIndex(index - 1)}>
-          <AiOutlineArrowLeft className="fas fa-arrow-left" />
-        </button>
-        <button className="next" onClick={() => setIndex(index + 1)}>
-          <i className="fas fa-arrow-right" />
-        </button>
+
       </div>
     </section>
   );
